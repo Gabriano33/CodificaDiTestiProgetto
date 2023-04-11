@@ -6,7 +6,7 @@ Studenti responsabili:
 
 Gabriele Pergola (MAT601761)
 
-....
+ Giuseppe Vincenzo Dylan Toscano (MAT)
 
 
 Sono state codificate due pagine di manoscritto, in particolare i fogli 3 e 14 - prolusioni 1
@@ -15,6 +15,6 @@ Il progetto è stato validato con Xerces con il seguente comando:
 
 java -cp "tools/Xerces-J-bin.2.12.1/xerces-2_12_1/" dom.Counter -v CODIFICA_PERGOLA_TOSCANO.xml
 
-I file XML e XSL sono stati trasformati con Saxon-HE 10.3 in un file HTML "??????????.html" con il seguente comando:
+I file XML e XSL sono stati trasformati con Saxon-HE 10.3 in un file HTML "pagina3.html" con il seguente comando:
 
-java net.sf.saxon.Transform -s:merge.xml -xsl:merge.xsl -o:?????????????.html
+java net.sf.saxon.Transform -s:merge.xml -xsl:merge.xsl -o:pagina3.html
