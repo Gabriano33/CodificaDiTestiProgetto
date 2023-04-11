@@ -6,7 +6,7 @@ Studenti responsabili:
 
 Gabriele Pergola (MAT601761)
 
- Giuseppe Vincenzo Dylan Toscano (MAT)
+ Giuseppe Vincenzo Dylan Toscano (MAT599752)
 
 
 Sono state codificate due pagine di manoscritto, in particolare i fogli 3 e 14 - prolusioni 1
