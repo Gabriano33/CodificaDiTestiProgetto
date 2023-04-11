@@ -1,0 +1,481 @@
+@import url("https://fonts.googleapis.com/css?family=Trirong");
+
+
+/*informazioni sul documento in generale (menu ecc..)*/
+
+* {  /* seleziona tutti gli elementi */
+	border: 0;
+    font-family: 'Trirong';
+	margin: 0;
+    outline: 0;
+    padding: 0;
+	vertical-align: baseline;  /* valore di default, elemento allineato sulla stessa linea */
+	text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(255, 254, 239);
+    font-size: 18px;
+
+}
+
+header {
+    padding-block:2%;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: right;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+#menu {
+    overflow: hidden;
+    background-color: aliceblue;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000;
+    border-bottom: solid;
+    border-color: #000000;
+}
+  
+#menu a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+#menu a:hover {
+    background: #ddd;
+    color: black;
+}
+
+#menu h1 {
+    color: black;
+}
+
+h2 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+section {
+    background-color: antiquewhite;
+    border-radius:10px;
+    margin: 50px;
+    padding: 20px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    text-align: justify; 
+}
+
+#informazioni {
+    background-color: antiquewhite;
+    border-radius:10px;
+    margin: 50px;
+    padding: 30px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    width: 520px; 
+    height: 450px;
+} 
+
+#informazioni h2 {
+    text-align: center;
+}
+
+#caratteristiche {
+    background-color:antiquewhite;
+    margin-left: auto;
+    margin-top: -500px;
+    height: 450px;
+    width: 520px;
+}
+
+#caratteristiche h2{
+    padding-top: 2%;
+    text-align: center;
+    
+}
+
+#descrizione {
+    background-color: antiquewhite;
+    text-align: justify;
+    width: 94%;
+}
+
+#descrizione h2 {
+    text-align: center;
+}
+
+#storia {
+    background-color: antiquewhite;
+    width: 30%;
+    margin-left: 34.6%;
+    margin-top: -29.6%;
+    padding: 2%;
+    height: 450px;
+    width: 520px;
+}
+
+#storia h2{
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+
+/* testi codificati e traduzioni */
+section .testo{
+    background-color: aliceblue;
+    border: 10px;
+    border-radius:10px;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
+    max-width: 50%;
+    box-sizing: auto;
+}
+
+#foto_prolusioni {
+    text-align: center;
+}
+
+#pagina3{
+    display: none;
+}
+
+.testo_pagina {
+    justify-content: space-between;
+    display: flex;
+    text-decoration: none;
+}
+
+.pericope {
+    color: rgb(0, 0, 0);
+    letter-spacing: 4px;
+    border-bottom: 3px dotted rgb(0, 0, 0);
+}
+
+#bottoniColori {
+    border: 6px;
+    border-radius:10px;
+    margin: 5px;
+    padding: 1em 2.5em;
+    display:auto;
+    text-align: center;
+}
+
+#bottoniColori > button:hover {
+    transition: 0.2s;
+    box-shadow:5px 5px 5px rgb(163, 157, 157);
+	transform:scale(1.1,1.1);
+}
+
+#bottTerminologia {
+    width: auto;
+    display: flex;
+    justify-content: center; /* centra orizzontalmente */
+    align-items: center; /* centra verticalmente */
+  }
+  
+  #bottTerminologia button {
+    border: 6px;
+    border-radius:10px;
+    padding: 20px;
+    font-size: 20px;
+  }
+  
+
+#informazioni > img {
+    width: 250px;
+    float: left;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+}
+
+#informazioni > h3 {
+    font-size: 16px;
+}
+
+
+
+.immagini{
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    height: 600px;
+    margin:10px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+#foto_prolusioni {
+    width: auto;
+}
+
+footer {
+    background-color: antiquewhite;
+    border-radius:10px;
+    margin: 50px;
+    padding: 20px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    width: auto;
+    text-align: justify; 
+}
+
+
+/*per il funzionamento dei bottoni*/
+
+#bottoni_annotazioni{
+    text-align-last: center;
+}
+
+#cambia {
+    background-color: aliceblue;
+    box-shadow: -1px 7px 5px 1px rgba(255, 0, 0, 0.2);
+    border-radius: 13px;
+    padding: 7px;
+    margin-left: 1400px;
+    color: red;
+
+}
+
+.parola > p {
+    border-bottom: 3px solid white;
+}
+
+.expan, .reg, span, u{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.reg, .none, .del, .supplied, .expan, .gloss, .label {
+    display: none;
+}
+
+.inline_block, .line_through, .purple {
+    display: inline-block;
+}
+
+
+.del {
+    text-decoration: line-through;
+    background-color: rgb(77, 77, 146);
+}
+
+#glottonimo, .green {
+    background-color: rgba(23, 197, 67, 0.911);
+    padding: 5px;
+    margin: 4px;
+    border-radius:10px;
+    
+}
+
+#cancellazione {
+    background-color: rgb(77, 77, 146);
+    padding: 5px;
+    margin: 4px;
+    border-radius:10px;
+}
+
+#aggiunte, .purple {
+    background-color: rgb(196, 89, 196);
+    padding: 5px;
+    margin: 4px;
+    border-radius:10px;
+}
+
+#abbreviazione, .expan {
+    background-color: rgb(224, 138, 152);
+    padding: 5px;
+    margin: 4px;
+    border-radius:10px;
+}
+
+#correzioni, .reg{
+    background-color: rgb(253, 54, 54);
+    padding: 5px;
+    margin: 4px;
+    border-radius:10px;
+}
+#toponimo, .bordeaux{
+    background-color: rgb(156, 28, 28);
+    padding: 5px;
+    margin: 4px;
+    border-radius:10px;
+}
+
+#termine, .yellow {
+    background-color: yellow;
+    padding: 5px;
+    margin: 4px;
+    border-radius:10px;
+}
+
+#bibliografia {
+    width: auto;
+    padding-left: 50px;
+}
+
+
+
+.terms {
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* stili per dispositivi mobili */
+@media only screen and (max-width: 767px) {
+    body {
+      font-size: 16px;
+    }
+  
+    header {
+      padding-block: 5%;
+    }
+  
+    h1 {
+      font-size: 16px;
+      margin-top: 10px;
+      margin-right: 5px;
+    }
+  
+    #menu {
+      border-bottom: none;
+    }
+  
+    #menu a {
+      padding: 10px;
+    }
+  
+    #informazioni {
+      margin: 30px;
+      padding: 20px;
+      height: auto;
+    }
+  
+    #informazioni > img {
+      width: 100%;
+      margin: 0;
+    }
+  
+    #informazioni > h3 {
+      margin-top: 10px;
+    }
+  
+    #caratteristiche {
+      margin-top: 0;
+      margin-left: 0;
+      height: auto;
+      width: auto;
+    }
+  
+    #storia {
+      margin-left: 0;
+      margin-top: 30px;
+      height: auto;
+      width: auto;
+    }
+  
+    .testo {
+      max-width: 100%;
+    }
+  
+    .immagini {
+      width: 100%;
+      margin: 5px 0;
+      height: auto;
+    }
+  }
+  
+  /* stili per dispositivi tablet */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+      font-size: 18px;
+    }
+  
+    header {
+      padding-block: 3%;
+    }
+  
+    h1 {
+      font-size: 20px;
+      margin-top: 15px;
+      margin-right: 15px;
+    }
+  
+    #menu a {
+      padding: 12px;
+    }
+  
+    #informazioni {
+      margin: 50px;
+      padding: 30px;
+      height: 450px;
+    }
+  
+    #informazioni > img {
+      width: 50%;
+      margin: 20px;
+    }
+  
+    #caratteristiche {
+      margin-top: -350px;
+      margin-left: auto;
+      height: 450px;
+      width: 50%;
+    }
+  
+    #storia {
+      margin-left: auto;
+      margin-top: -350px;
+      height: 450px;
+      width: 50%;
+    }
+  
+    .testo {
+      max-width: 80%;
+    }
+  
+    .immagini {
+      width: 80%;
+      height: auto;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    body {
+    font-size: 18px;
+    }
+    
+    header {
+    padding-block: 2%;
+    }
+    
+    #menu a {
+    padding: 14px 16px;
+    }
+    
+    #informazioni {
+    margin: 50px;
+    padding: 30px;
+    height: 450px;
+    }
+    
+    #informazioni > img {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+    }

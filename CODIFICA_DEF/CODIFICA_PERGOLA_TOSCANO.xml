@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="testo/xsl" href="codifica.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt> 
+                <title xml:lang="fr">Trois premières conférences à l'Université</title> 
+                <title xml:lang="it">Le prime tre conferenze all'Università</title>
+                <author xml:lang="fr" ref="#FDS">Ferdinand De Saussure</author> 
+                <principal> 
+                    <name ref="#Bou">Bouquet</name>
+                    <name ref="#Eng">Engler</name>
+                </principal>
+
+                <respStmt>
+                    <resp>Traduzione a cura di</resp> 
+                    <name ref="#EF">Emanuele Fadda</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt> 
+                <edition n="DigitalEdition">  
+                    Edizione digitale <date when="2023-02">Febbraio 2023</date> 
+                </edition>
+                <respStmt> 
+                    <resp>Il progetto è a cura di:</resp> 
+                    <name xml:id = "AMG"> Angelo Mario Del Grosso </name>
+                </respStmt>
+                <respStmt> 
+                    <resp>Studenti responsabili della codifica:</resp>
+                    <name xml:id="GP"> Gabriele Pergola </name> 
+                    <name xml:id ="GVDT"> Giuseppe Vincenzo Dylan Toscano </name>
+                </respStmt>
+            </editionStmt> 
+
+            <publicationStmt> 
+                <publisher>Università di Pisa</publisher>
+                <date when="2022-11">Febbraio 2023</date>
+                <availability status="free"> 
+                    <p>No rights content</p>
+                </availability> 
+                <pubPlace>Pisa</pubPlace> 
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier> 
+                        <country>Svizzera</country>
+                        <settlement>Ginevra</settlement>
+                        <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Biblioteca di Ginevra</repository>
+                        <collection>Archivi Ferdinand de Saussure</collection> 
+                        <idno type="inventory">BGE Ms.fr.3951/1</idno> 
+                    </msIdentifier>
+
+                    <msContents>
+                        <msItem>
+                            <author xml:lang="fr" ref="#FDS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                            <title xml:lang="fr" type="sub">(cours d'ouverture - <date when="1891-11">nov. 1891</date>)</title>
+                            <textLang mainLang="fr"> Il manoscritto è in francese</textLang>
+                        </msItem>
+                    </msContents>
+
+                    <!-- Supporto fisico -->
+                    <physDesc> 
+                        <objectDesc form="foglio">
+                            <supportDesc material="paper">
+                                <support>
+                                    <p>Carta</p>
+                                </support>
+                                <extent>
+                                    <measure unit="pages" quantity="67">
+                                        67 pagine + 1 foglio aggiuntivo.
+                                    </measure>
+                                </extent>
+                                <condition><p>Le pagine si dimostrano leggibili nonostante la datazione, dal momento che i danni riportati non sono di grave entità. Lo stato di conservazione è nel complesso più che buono.</p></condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <p>Il testo è stato scritto a mano solo dal relativo autore.</p>
+                        </handDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin notAfter="1891-11">
+                            <p>
+                                Appunti di Ferdinand de Saussure, scritti originariamente per alcune conferenze dell'Università di 
+                                <placeName ref="#GE">Ginevra</placeName>. Sono stati poi utilizzati successivamente nel <date when="1891-11">novembre 1891</date> 
+                                per le lezioni del corso di <foreign xml:lang="fr">Phonétique du grec et du latin</foreign>.
+                                Si sono conservate in buone condizioni fino ai giorni nostri.
+                            </p>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">Francese</language>
+            </langUsage>
+            <creation>
+                <date when="1891-11">Novembre 1891</date>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <!-- Prolusioni 1 - Pagina 14 -->
+        <surface xml:id="Full_PAG14_MAP">
+            <graphic url='ms_fr_03951_01_1_p014_milli.jpg' width='6048.1386px' height='4032.1386px' />
+            <zone  xml:id="PAG14_INTERA" ulx="2007" uly="276" lrx="4639" lry="3790" />
+            <zone  xml:id="PAG14_R1" ulx="2440" uly="293" lrx="4545" lry="468" />
+            <zone  xml:id="PAG14_R2" ulx="2417" uly="479" lrx="4523" lry="605" />
+            <zone  xml:id="PAG14_R3" ulx="2419" uly="617" lrx="4502" lry="744" />
+            <zone  xml:id="PAG14_R4" ulx="2423" uly="754" lrx="4482" lry="900" />
+            <zone  xml:id="PAG14_R5" ulx="2430" uly="924" lrx="4485" lry="1027" />
+            <zone  xml:id="PAG14_R6" ulx="2450" uly="1063" lrx="4416" lry="1166" />
+            <zone  xml:id="PAG14_R7" ulx="2442" uly="1180" lrx="4503" lry="1302" />
+            <zone  xml:id="PAG14_R8" ulx="2419" uly="1319" lrx="4458" lry="1436" />
+            <zone  xml:id="PAG14_R9" ulx="2442" uly="1459" lrx="4469" lry="1574" />
+            <zone  xml:id="PAG14_R10" ulx="2440" uly="1605" lrx="4521" lry="1734" />
+            <zone  xml:id="PAG14_R11" ulx="2435" uly="1764" lrx="4445" lry="1874" />
+            <zone  xml:id="PAG14_R12" ulx="2457" uly="1904" lrx="4433" lry="2031" />
+            <zone  xml:id="PAG14_R13" ulx="2455" uly="2079" lrx="4417" lry="2155" />
+            <zone  xml:id="PAG14_R14" ulx="2436" uly="2223" lrx="4423" lry="2318" />
+            <zone  xml:id="PAG14_R15" ulx="2420" uly="2353" lrx="4493" lry="2458" />
+            <zone  xml:id="PAG14_R16" ulx="2446" uly="2515" lrx="4636" lry="2617" />
+            <zone  xml:id="PAG14_R17" ulx="2442" uly="2650" lrx="4483" lry="2757" />
+            <zone  xml:id="PAG14_R18" ulx="2426" uly="2791" lrx="4452" lry="2911" />
+            <zone  xml:id="PAG14_R19" ulx="2420" uly="2936" lrx="2944" lry="3066" />
+            <zone  xml:id="PAG14_R20" ulx="2751" uly="2934" lrx="4626" lry="3208" />
+            <zone  xml:id="PAG14_R21" ulx="2021" uly="3245" lrx="4625" lry="3362" />
+            <zone  xml:id="PAG14_R22" ulx="2462" uly="3369" lrx="4562" lry="3475" />
+            <zone  xml:id="PAG14_R23" ulx="2490" uly="3488" lrx="4602" lry="3585" />
+            <zone  xml:id="PAG14_R24" ulx="2696" uly="3627" lrx="4615" lry="3731" />
+        </surface>
+        <!-- Retro pagina 14-->
+        <surface xml:id="Full_PAG14_RETRO_MAP">
+            <graphic url='ms_fr_03951_01_1_p014v.jpg' width='2144.1386px' height='2672.1386px' />
+            <zone xml:id="PAG14_RETRO_INTERA" ulx="238" uly="272" lrx="1829" lry="2352" />
+        </surface>
+
+        <!-- Prolusioni 1 - Pagina 3-->
+        <surface  xml:id="Full_PAG3_MAP">
+            <graphic url='ms_fr_03951_01_1_p003.jpg' width='4032.2772px' height='6048.2772px' />
+            <zone xml:id="PAG3_INTERA" ulx="218" uly="373" lrx="3701" lry="5758" />
+            <zone xml:id="PAG3_R1" ulx="877" uly="677" lrx="3555" lry="854" />
+            <zone xml:id="PAG3_R2" ulx="948" uly="874" lrx="3495" lry="1066" />
+            <zone xml:id="PAG3_R3" ulx="980" uly="1089" lrx="3583" lry="1243" />
+            <zone xml:id="PAG3_R4" ulx="1011" uly="1263" lrx="3558" lry="1438" />
+            <zone xml:id="PAG3_R5" ulx="962" uly="1466" lrx="3695" lry="1661" />
+            <zone xml:id="PAG3_R6" ulx="1000" uly="1670" lrx="3609" lry="1790" />
+            <zone xml:id="PAG3_R7" ulx="959" uly="1853" lrx="3629" lry="2001" />
+            <zone xml:id="PAG3_R8" ulx="988" uly="2030" lrx="3569" lry="2139" />
+            <zone xml:id="PAG3_R9" ulx="959" uly="2210" lrx="3641" lry="2331" />
+            <zone xml:id="PAG3_R10" ulx="937" uly="2353" lrx="3509" lry="2451" />
+            <zone xml:id="PAG3_R11" ulx="416" uly="2511" lrx="3606" lry="2594" />
+            <zone xml:id="PAG3_R12" ulx="1008" uly="2628" lrx="3498" lry="2725" />
+            <zone xml:id="PAG3_R13" ulx="962" uly="2771" lrx="3478" lry="2883" />
+            <zone xml:id="PAG3_R14" ulx="1008" uly="2951" lrx="3558" lry="3092" />
+            <zone xml:id="PAG3_R15" ulx="959" uly="3123" lrx="3526" lry="3281" />
+            <zone xml:id="PAG3_R16" ulx="516" uly="3349" lrx="3661" lry="3487" />
+            <zone xml:id="PAG3_R17" ulx="951" uly="3509" lrx="3506" lry="3641" />
+            <zone xml:id="PAG3_R18" ulx="988" uly="3713" lrx="3498" lry="3887" />
+            <zone xml:id="PAG3_R19" ulx="1031" uly="3921" lrx="3655" lry="4125" />
+            <zone xml:id="PAG3_R20" ulx="948" uly="4122" lrx="954" lry="4150" />
+            <zone xml:id="PAG3_R21" ulx="994" uly="4142" lrx="3681" lry="4308" />
+            <zone xml:id="PAG3_R22" ulx="985" uly="4334" lrx="3572" lry="4548" />
+            <zone xml:id="PAG3_R23" ulx="439" uly="4585" lrx="914" lry="4966" />
+            <zone xml:id="PAG3_R24" ulx="1022" uly="4577" lrx="3635" lry="4714" />
+            <zone xml:id="PAG3_R25" ulx="1028" uly="4766" lrx="3621" lry="4886" />
+            <zone xml:id="PAG3_R26" ulx="1045" uly="4926" lrx="3586" lry="5046" />
+            <zone xml:id="PAG3_R27" ulx="256" uly="5195" lrx="525" lry="5501" />
+            <zone xml:id="PAG3_R28" ulx="616" uly="5229" lrx="3643" lry="5724" />
+        </surface>
+    </facsimile>
+
+
+    <text xml:lang="fr" xml:id="Prol_1_NUM_CAR_3_14-fr" subtype="manuscript">
+        <body>
+            <div type="pagina" facs="pagina14" n="14">
+                <pb n="14" facs="#full_PAG14"/>
+                <ab type="paragrafo" n="1" xml:id="PAR_1_PAG_14"> <!-- primo paragrafo-->
+                    <lb xml:id="Prol_1_NUM_CAR_14_R1" n="1" facs="#PAG14_R1"/> 
+                    Si l’<term ref="#etudeLinguistique">étude <mod type="subst"><del rend="overstrike"><gap reason="illegible" extent="8" atLeast="6" atMost="9" unit="character"/></del><add resp="#FDS" place="above"><choice><abbr>linguistiq<am>.</am></abbr><expan resp="#Bouq-Engl">linguistiq<ex>ue</ex></expan></choice></add></mod></term> de 
+                    <mod type="subst"><del rend="overstrike"><unclear reason="illegible" cert="low">tel ou tel de gus</unclear><gap reason="illegible" extent="6" atLeast="6" atMost="7" unit="words"/></del><add resp="#FDS" place="above"><choice><orig>+</orig><reg resp="#Bouq-Engl">plus</reg></choice>ieurs<term ref="#langues"><choice><orig>lgus</orig><reg resp="#Bouq-Engl">langues</reg></choice></term>ou d’<choice><orig>1</orig><reg resp="#Bouq-Engl">une</reg></choice>seule</add></mod>
+                    <lb xml:id="Prol_1_NUM_CAR_14_R2" n="2" facs="#PAG14_R2"/>
+                    reconnaît pour <add resp="#FDS" place="above">son</add> but <add resp="#FDS" place="above">final et</add> principal<mod type="subst"><del rend="overstrike"><unclear reason="overstrike" cert="high">l'étude</unclear></del></mod><add resp="#FDS" place="above">la vérification et la recherche</add> des <term ref="#lois">lois</term>
+                    <lb xml:id="Prol_1_NUM_CAR_14_R3" n="3" facs="#PAG14_R3"/>
+                    et des <term ref="#procédés">procédés</term> <add resp="#FDS" place="above"><term ref="#universels">universels</term></add>du <term ref="#langage">langage</term>, on demande jusqu’à 
+                    <lb xml:id="Prol_1_NUM_CAR_14_R4" n="4" facs="#PAG14_R4"/>
+                    quel point ces études <choice><orig><del rend="overstrike"><unclear reason="illegible" cert="high">s</unclear></del><reg resp="#Bouq-Engl">sont</reg></orig></choice> leur place dans 
+                    <lb xml:id="Prol_1_NUM_CAR_14_R5" n="5" facs="#PAG14_R5"/>
+                    une <orgName ref="#facultéDesLettres">Faculté des Lettres</orgName>, <mod type="subst"><del rend="overwritten"><unclear reason="illegible" cert="low">t</unclear><gap reason="illegible" extent="2" atLeast="2" atMost="2" unit="words"/><add resp="#FDS" place="superimposed">ou si</add></del></mod>elles n’auraient
+                    <lb xml:id="Prol_1_NUM_CAR_14_R6" n="6" facs="#PAG14_R6"/>
+                    pas une place également convenable <choice><orig>D</orig><reg resp="#Bouq-Engl">dans</reg></choice> <choice><orig>1</orig><reg resp="#Bouq-Engl">une</reg></choice> <orgName ref="#facultéDesSciences"><choice><abbr>Fac<am>.</am></abbr></choice><expan resp="#Bouq-Engl">Fac<ex>ulté</ex></expan></orgName>
+                    <lb xml:id="Prol_1_NUM_CAR_14_R7" n="7" facs="#PAG14_R7"/>
+                    <orgName ref="#facultéDeSciences">des Sciences</orgName> ?
+                </ab>
+
+                <ab type="paragrafo" n="2" xml:id="PAR_2_PAG_14"> <!-- secondo paragrafo-->
+                    <lb xml:id="Prol_1_NUM_CAR_14_R8" n="8" facs="#PAG14_R8"/>
+                    Ce serait renouveler la <del rend="overstrike"><unclear reason="overstrike" cert="high">fameuse</unclear></del>
+                    <lb xml:id="Prol_1_NUM_CAR_14_R9" n="9" facs="#PAG14_R9"/>
+                    question <add resp="#FDS" place="above">bien connue</add> agitée autrefois par <name type="person" ref="#MaxMüllier">Max Müllier</name> et
+                    <lb xml:id="Prol_1_NUM_CAR_14_R10" n="10" facs="#PAG14_R10"/>
+                    <name type="person" ref="#Schleicher">Schleicher</name> <choice><orig><del rend="overstrike"><gap reason="illegible" extent="3" atLeast="3" atMost="4" unit="words"/></del><reg resp="#Bouq-Engl"></reg></orig></choice> ; il y a eu, <add resp="#FDS" place="above"><choice><abbr>MM<am>.</am></abbr><expan resp="#Bouq-Engl">Messieurs</expan></choice> <choice><orig> </orig><reg resp="#Bouq-Engl">,</reg></choice> <choice><orig>vs</orig><reg resp="#Bouq-Engl">vous</reg></choice> le savez</add>
+                    , un temps où la <term ref="#scienceDuLangage"><choice><orig>sci</orig><reg resp="#Bouq-Engl">science</reg></choice></term>
+                    <lb xml:id="Prol_1_NUM_CAR_14_R11" n="11" facs="#PAG14_R11"/>
+                    <term ref="#scienceDuLangage">du langage</term> s’était persuadée à elle-même
+                    <lb xml:id="Prol_1_NUM_CAR_14_R12" n="12" facs="#PAG14_R12"/>
+                    qu’elle était <choice><orig>1</orig><reg resp="#Bouq-Engl">une</reg></choice> <term ref="#scienceNaturelle">science naturelle</term>, <add resp="#FDS" place="above">presque <choice><orig>1</orig><reg resp="#Bouq-Engl">une</reg></choice> <term ref="#sciencePhysique"><choice><abbr>sc<am>.</am></abbr><expan resp="#Bouq-Engl"><ex>sc</ex>ience</expan></choice> <choice><orig>φysiq</orig><reg resp="#Bouq-Engl">physique</reg></choice></term></add>
+                    ; je ne <del rend="strikethrough"><unclear reason="illegible" cert="high">revi</unclear></del>
+                    <lb xml:id="Prol_1_NUM_CAR_14_R13" n="13" facs="#PAG14_R13"/>
+                    songe pas à démontrer <mod type="subst"><del rend="overstrike"><unclear reason="overstrike" cert="low">la fausse que</unclear></del><add resp="#FDS" place="above">comme quoi</add></mod> c’était
+                    <lb xml:id="Prol_1_NUM_CAR_14_R14" n="14" facs="#PAG14_R14"/>
+                    une profonde illusion de sa part, mais au
+                    <lb xml:id="Prol_1_NUM_CAR_14_R15" n="15" facs="#PAG14_R15"/>
+                    contraire à constater que ce débat <choice><abbr>es</abbr><expan resp="#Bouq-Engl">es<ex>t</ex></expan></choice> clos
+                    <lb xml:id="Prol_1_NUM_CAR_14_R16" n="16" facs="#PAG14_R16"/>
+                    et bien clos.
+                </ab>
+
+
+                <ab type="paragrafo" n="3" xml:id="PAR_3_PAG_14"> <!-- terzo paragrafo-->
+                    <lb xml:id="Prol_1_NUM_CAR_14_R17" n="17" facs="#PAG14_R17"/>
+                    À mesure <add resp="#FDS" place="above">q'</add> on a mieux compris
+                    <lb xml:id="Prol_1_NUM_CAR_14_R18" n="18" facs="#PAG14_R18"/>
+                    la véritable nature <mod type="subst"><del rend="overstrike"><unclear reason="overstrike" cert="high">du</unclear></del><add resp="#FDS" place="above">des <term ref="#faitsDeLangage">faits de</term></add></mod> <term ref="#FaitsDeLangage">langage</term>, qui
+                    sont si près de <choice><abbr>ns</abbr><expan resp="#Bouq-Engl">nous</expan></choice>, mais <choice><abbr>d'aut<am>.</am></abbr><expan resp="#Bouq-Engl">d'aut<ex>ant</ex></expan></choice> <choice><orig>+</orig><reg resp="#Bouq-Engl">plus</reg></choice> <choice><abbr>diff<am>.</am></abbr><expan resp="#Bouq-Engl">diff<ex>iciles</ex></expan></choice> à
+                    <choice><abbr>saisi</abbr><expan resp="#Bouq-Engl">saisi<ex>r</ex></expan></choice> <choice><abbr>d</abbr><expan resp="#Bouq-Engl">d<ex>ans</ex></expan></choice> <choice><abbr>le</abbr><expan resp="#Bouq-Engl">le<ex>ur</ex></expan></choice> <term ref="#essence"><choice><abbr>ess</abbr><expan resp="#Bouq-Engl">ess<ex>ence</ex></expan></choice></term> , il est devenu
+                    <lb xml:id="Prol_1_NUM_CAR_14_R19" n="19" facs="#PAG14_R19"/>
+                    plus évident que la <term ref="#scienceDuLangage">science du langage</term> est une
+                    <lb xml:id="Prol_1_NUM_CAR_14_R20" n="20" facs="#PAG14_R20"/>
+                    <term ref="#scienceHistorique">science historique</term> et rien d’autre qu’ <choice><orig>1</orig><reg resp="#Bouq-Engl">une</reg></choice> <term ref="#ScienceHistorique">science</term>
+                    <lb xml:id="Prol_1_NUM_CAR_14_R21" n="21" facs="#PAG14_R21"/>
+                    <term ref="#scienceHistorique">historique</term>.
+                </ab>
+            </div>
+            
+
+
+            <div type="pagina" facs="pagina3" n="3">
+                <pb n="3" facs="#Full_PAG3" /> <!-- Inizio seconda pagina -->
+                <ab type="paragrafo" n="1" xml:id="PAR_1_PAG_3"> <!-- primo paragrafo-->
+                    <lb xml:id="Prol_1_NUM_CAR_3_R1" n="1" facs="#PAG3_R1"/>
+                    <gap reason="editorial"><desc>une race totalement distincte du Magyar, qu’au sein de l’empire autrichien le Magyar à son tour représente</desc></gap> une race totalement distincte du Tchèque et
+                    <lb xml:id="Prol_1_NUM_CAR_3_R2" n="2" facs="#PAG3_R2"/>
+                    de l’Allemand ; qu’en revanche le
+                    <lb xml:id="Prol_1_NUM_CAR_3_R3" n="3" facs="#PAG3_R3"/>
+                    Tchèque et l’Allemand qui se haïssent
+                    <lb xml:id="Prol_1_NUM_CAR_3_R4" n="4" facs="#PAG3_R4"/>
+                    du fond du cœur sont des <mod type="subst"><del rend="overstrike"><unclear reason="overstrike" cert="low">cours</unclear></del><add resp="#FDS" place="above">parents</add></mod> très
+                    <lb xml:id="Prol_1_NUM_CAR_3_R5" n="5" facs="#PAG3_R5"/>
+                    rapprochés ; qu’à <del rend="overstrike"><unclear reason="illegible" cert="high">leur t</unclear><gap reason="illegible" extent="2" atLeast="2" atMost="3" unit="words"/></del> son tour le Magyar 
+                    <lb xml:id="Prol_1_NUM_CAR_3_R6" n="6" facs="#PAG3_R6"/>
+                    est <mod type="subst"><del rend="overstrike"><unclear reason="overstrike" cert="low">pro alsi</unclear></del><add resp="#FDS" place="above">proche</add></mod> cousin des popula
+                    <lb xml:id="Prol_1_NUM_CAR_3_R7" n="7" facs="#PAG3_R7"/>
+                    tions <del rend="overstrike"><unclear reason="illegible" cert="high">de la Finlandie, sur les costs</unclear><gap reason="illegible" extent="6" atLeast="6" atMost="7" unit="words"/></del>
+                    <lb xml:id="Prol_1_NUM_CAR_3_R8" n="8" facs="#PAG3_R8"/>
+                    <del rend="overstrike"><unclear reason="illegible" cert="high">Mar Baltique</unclear><gap reason="illegible" extent="2" atLeast="2" atMost="3" unit="words"/></del> finnoises de l’ <orgName ref="#empireRusse">empire</orgName>
+                    <lb xml:id="Prol_1_NUM_CAR_3_R9" n="9" facs="#PAG3_R9"/>
+                    <orgName ref="#empireRusse">russe</orgName>, sur les bords de la <placeName ref="#baltique">Baltique</placeName>, <del rend="overstrike"><unclear reason="illegible" cert="low">etc etc</unclear><gap reason="illegible" extent="2" atLeast="2" atMost="3" unit="words"/></del>
+                    <lb xml:id="Prol_1_NUM_CAR_3_R10" n="10" facs="#PAG3_R10"/>
+                    dont il <mod type="subst"><del rend="overstrike"><unclear reason="overstrike" cert="low">ne amant pas rien une; etc etc</unclear></del><add resp="#FDS" place="above">n’a jamais entendu parler,</add></mod>
+                    <lb xml:id="Prol_1_NUM_CAR_3_R11" n="11" facs="#PAG3_R11"/>
+                    qu’à leur tour les Tsiganes dont je parlais sont <mod type="subst"><del rend="overstrike"><unclear reason="overstrike" cert="low">les</unclear></del><add resp="#FDS" place="above">un</add></mod> peuple sorti de l’<placeName ref="#Inde">Inde</placeName>
+                    <lb xml:id="Prol_1_NUM_CAR_3_R12" n="12" facs="#PAG3_R12"/>
+                    – je passerais ensuite, et ceci nous
+                    <lb xml:id="Prol_1_NUM_CAR_3_R13" n="13" facs="#PAG3_R13"/>
+                    rapprocherait <del rend="overstrike"><unclear reason="illegible" cert="high">fot</unclear><gap reason="illegible" extent="1" atLeast="1" atMost="2" unit="words"/></del> déjà davantage  <del rend="overstrike"><unclear reason="illegible" cert="high">du vrai</unclear><gap reason="illegible" extent="2" atLeast="2" atMost="3" unit="words"/></del>
+                    <lb xml:id="Prol_1_NUM_CAR_3_R14" n="14" facs="#PAG3_R14"/>
+                    de l’objet vrai, à tout ce que la <choice><abbr>psycho<am>.</am></abbr><expan resp="#Bouq-Engl"><lang>psycho<ex>logie</ex></lang></expan></choice>
+                    <lb xml:id="Prol_1_NUM_CAR_3_R15" n="15" facs="#PAG3_R15"/>
+                    <choice><expan>psychologie</expan><abbr>logie</abbr></choice> est probablement appelée à <del rend="overstrike"><unclear reason="illegible" cert="low">Livres</unclear><gap reason="illegible" extent="1" atLeast="1" atMost="2" unit="words"/></del>
+                    <lb xml:id="Prol_1_NUM_CAR_3_R16" n="16" facs="#PAG3_R16"/>
+                    recueillir prochainement de l’ <term ref="#etudeDulangage">étude du langage</term> - mais
+                    <lb xml:id="Prol_1_NUM_CAR_3_R17" n="17" facs="#PAG3_R17"/>
+                    après cela, ou avant cela, je vous 
+                    <lb xml:id="Prol_1_NUM_CAR_3_R18" n="18" facs="#PAG3_R18"/>
+                    poserais plutôt cette simple question :
+                    <lb xml:id="Prol_1_NUM_CAR_3_R19" n="19" facs="#PAG3_R19"/>
+                    pensez-vous sérieusement que l’ <term ref="#etudeDulangage">étude du langage</term>,
+                    <lb xml:id="Prol_1_NUM_CAR_3_R20" n="20" facs="#PAG3_R20"/>
+                    <del rend="overstrike"><unclear reason="illegible" cert="low">à supposer qu'elle n'offrir pas le moindre</unclear><gap reason="illegible" extent="9" atLeast="9" atMost="10" unit="words"/></del>
+                    <lb xml:id="Prol_1_NUM_CAR_3_R21" n="21" facs="#PAG3_R21"/>
+                    <del rend="overstrike"><unclear reason="illegible" cert="low">interef pour les sciences egaunites</unclear><gap reason="illegible" extent="5" atLeast="5" atMost="6" unit="words"/></del>
+                    <lb xml:id="Prol_1_NUM_CAR_3_R22" n="22" facs="#PAG3_R22"/>
+                    ait besoin, pour <del rend="overstrike"><unclear reason="illegible" cert="low">de justifier se reglais son n a sto lag i n</unclear><gap reason="illegible" extent="6" atLeast="6" atMost="8" unit="words"/></del> <add resp="#FDS" place="margin">se justifier ou <choice><abbr>pr</abbr><expan resp="#Bouq-Engl">pr<ex>pour</ex></expan></choice> se disculper <choice><abbr>d' exist</abbr><expan resp="#Bouq-Engl">d'exist<ex>exister</ex></expan></choice></add> de prouver
+                    <lb xml:id="Prol_1_NUM_CAR_3_R23" n="23" facs="#PAG3_R23"/>
+                    qu’elle est utile à d’autres sciences? 
+                    <lb xml:id="Prol_1_NUM_CAR_3_R24" n="24" facs="#PAG3_R24"/>
+                    C’est une
+                </ab>
+
+                <ab type="paragrafo" n="2" xml:id="PAR_2_PAG_3"> <!-- secondo paragrafo-->
+                    <lb xml:id="Prol_1_NUM_CAR_3_R25" n="25" facs="#PAG14_R25"/>  
+                    exigence <del rend="overstrike"><unclear reason="illegible" cert="high">qu'on</unclear><gap reason="illegible" extent="2" atLeast="2" atMost="3" unit="words"/></del> à laquelle j’ai commencé par
+                    <lb xml:id="Prol_1_NUM_CAR_3_R26" n="26" facs="#PAG14_R26"/>
+                    <add resp="#FDS" place="margin">T<am>.</am>H<am>.</am>V<am>.</am>P<am>.</am></add> <del rend="overstrike"><unclear reason="illegible" cert="low">Sur ce poi de la préhistorie de l' ethymologie on ne</unclear><gap reason="illegible" extent="2" atLeast="2" atMost="3" unit="words"/></del>
+                    <lb xml:id="Prol_1_NUM_CAR_3_R27" n="27" facs="#PAG14_R27"/>
+                    <del rend="overstrike"><unclear reason="illegible" cert="low">peut que repeter que iv  em linguistique ami : </unclear><gap reason="illegible" extent="8" atLeast="8" atMost="9" unit="words"/></del>
+                    <lb xml:id="Prol_1_NUM_CAR_3_R28" n="28" facs="#PAG14_R28"/>
+                    <del rend="overstrike"><unclear reason="illegible" cert="low">vous repro à la linguistqiue. je ne pas les inis</unclear><gap reason="illegible" extent="10" atLeast="10" atMost="11" unit="words"/></del>
+                    <lb xml:id="Prol_1_NUM_CAR_3_R29" n="29" facs="#PAG14_R29"/>
+                    <del rend="overstrike"><unclear reason="illegible" cert="low">et à correction; mais rilly considerer sur les epoques</unclear><gap reason="illegible" extent="9" atLeast="9" atMost="10" unit="words"/></del>
+                </ab>
+            </div>
+
+            
+
+
+
+            <!--Traduzione di Emanuele Fadda-->
+            <div type="Prol_1_NUM_CAR_14_TRADUZIONE">
+                <ab n="1" corresp="#PAR_1_PAG_14" xml:lang="it"> 
+                    Se lo <hi rend="italic">studio linguistico</hi> di molte <hi rend="italic">lingue</hi> o di una sola riconosce come suo scopo finale e principale la verifica e la ricerca delle <hi rend="italic">leggi</hi> e dei <hi rend="italic">processi universali</hi> del <hi rend="italic">linguaggio</hi>, ci si domanda sino a che punto tali studi
+                    abbiano il loro posto in una <hi rend="italic">Facoltà di Lettere</hi>, o se essi non avrebbero un posto ugualmente adeguato in una <hi rend="italic">Facoltà di Scienze</hi>.
+                </ab>
+                <ab n="2" corresp="#PAR_2_PAG_14" xml:lang="it">
+                    Sarebbe un rinnovare la questione ben nota sollevata tempo fa da <hi rend="italic">Max Müller</hi> e <hi rend="italic">Schleicher</hi>; c’è stato un tempo – voi lo sapete, Signori – in cui la <hi rend="italic">scienza del linguaggio</hi> s’era persuasa essa medesima d’essere una <hi rend="italic">scienza naturale</hi>,
+                    quasi una <hi rend="italic">scienza fisica</hi>; non m’interessa ora dimostrare come ciò fosse una profonda illusione da parte sua, ma al contrario constatare che tale dibattito è chiuso, e chiuso definitivamente.
+                </ab>
+                <ab n="3" corresp="#PAR_3_PAG_14" xml:lang="it">
+                    A misura che si è meglio compresa la reale natura dei <hi rend="italic">fatti di linguaggio</hi>, che sono così vicini a noi, ma tanto più difficili da afferrare nella loro <hi rend="italic">essenza</hi>, è divenuto più evidente che la <hi rend="italic">scienza del linguaggio</hi> è una <hi rend="italic">scienza storica</hi> e nient’altro che una <hi rend="italic">scienza storica</hi>.
+                </ab>
+            </div>
+
+            <div type="Prol_1_NUM_CAR_3_TRADUZIONE">
+                <ab n="1" corresp="#PAR_1_PAG_3" xml:lang="it"> 
+                    una razza totalmente distinta dai Magiari, che in seno all’<hi rend="italic">impero austriaco</hi> il Magiaro, a sua volta, rappresenta una razza totalmente distinta dal Ceco e dal Germanico; che invece il ceco e il Germanico, che si odiano dal più
+                    profondo del cuore, sono parenti piuttosto stretti; che per conto suo il Magiaro è invece parente e affine delle popolazioni finniche dell’<hi rend="italic">impero russo</hi>, sulle rive del <hi rend="italic">Baltico</hi>, delle quali non ha mai sentito parlare; che dal 
+                    canto loro gli Tzigani di cui parlavo sono un popolo venuto dall’<hi rend="italic">India</hi> – e passerei poi, e questo ci avvicinerebbe già di più al reale oggetto del discorso, a tutto ciò che la psicologia è probabilmente chiamata a recepire prossimamente 
+                    dallo <hi rend="italic">studio del linguaggio</hi>; ma dopo (o prima) di tutto ciò, vi porrei piuttosto la seguente, semplice domanda: pensate voi davvero che lo <hi rend="italic">studio del linguaggio</hi> abbia bisogno, per giustificarsi o per discolparsi di esistere, di provare che esso è utile ad altre scienze?
+                </ab>
+                <ab n="2" corresp="#PAR_2_PAG_3" xml:lang="it"> 
+                    Ho cominciato col constatare che si tratta di un’esigenza alla quale essa risponde largamente, e forse ben più di moltissime altre scienze; ma poi non trovo, lo confesso, che quest’esigenza sia giustificata.
+                </ab>
+            </div>
+        </body>
+
+
+
+        <back><!-- Appendice contentente elementi vari -->
+            <div type="appendice">
+                <!-- Terminologia -->
+                <list type="glossario">
+                
+                    <label> 
+                        <term xml:lang="fr" xml:id="etudeLinguistique">étude linguistique</term>
+                        <term xml:lang="it" ref="#etudeLinguistique">studio linguistico</term>
+                    </label>
+                    <item> 
+                        <gloss target="#etudeLinguistique" source="https://it.wikipedia.org/wiki/Linguistica"> 
+                            La linguistica è lo studio scientifico del linguaggio verbale umano e delle sue strutture. Essa include lo studio della fonetica, della grammatica, del lessico, della morfologia, della sintassi e della testualità.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="langues" xml:lang="fr">langues</term>
+                        <term ref="#langues" xml:lang="it">lingue</term>
+                    </label>
+                    <item>
+                        <gloss target="#langues" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_(linguistica)">
+                            in linguistica, è il sistema attraverso il quale gli appartenenti a una comunità si esprimono e comunicano tra loro attraverso l'uso di un determinato linguaggio ovvero 
+                            un insieme di segni scritti (simboli) e/o parlati (suoni).       
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="lois" xml:lang="fr">lois</term>
+                        <term ref="#lois" xml:lang="it">legge</term>
+                    </label>
+                    <item>
+                        <gloss target="#lois" xml:lang="it" source="https://it.wikipedia.org/wiki/Legge">
+                            In ambito giuridico o sperimentale, la legge è dunque una formula che abbia raggiunto la necessaria efficacia espressiva per registrare e/o prevedere andamenti e/o comportamenti.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="procédés" xml:lang="fr">procédés</term>
+                        <term ref="#procédés" xml:lang="it">processi</term>
+                    </label>
+                    <item>
+                        <gloss target="#procédés" xml:lang="it" source="https://www.treccani.it/vocabolario/ricerca/procedimento/">
+                            procedimento (procediménto) s. m. [der. di procedere]. – 1. ant. o poco com. Il fatto e il modo di procedere, cioè di svolgersi, di progredire: il p. delle indagini, o nelle indagini; spiegare, illustrare [...]
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="universels" xml:lang="fr">universels</term>
+                        <term ref="#universels" xml:lang="it">universali</term>
+                    </label>
+                    <item>
+                        <gloss target="#universels" xml:lang="it" source="https://www.treccani.it/vocabolario/universale1/">
+                            Che comprende, riguarda, interessa tutto
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="langage" xml:lang="fr">langage</term>
+                        <term ref="#langage" xml:lang="it">linguaggio</term>
+                    </label>
+                    <item>
+                        <gloss target="#langage" xml:lang="it" source="https://www.treccani.it/vocabolario/linguaggio/">
+                            la facoltà, peculiare degli esseri umani, di comunicare significati per mezzo di un sistema di segni, vocali o grafici.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="scienceDuLangage" xml:lang="fr">science du langage</term>
+                        <term ref="#scienceDuLangage" xml:lang="it">scienza del linguaggio</term>
+                    </label>
+                    <item>
+                        <gloss target="#scienceDuLangage" xml:lang="it" source="https://www.treccani.it/vocabolario/ricerca/scienza/">
+                            Insieme delle discipline fondate essenzialmente sull'osservazione del linguaggio.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="scienceNaturelle" xml:lang="fr">science naturelle</term>
+                        <term ref="#scienceNaturelle" xml:lang="it">scienze naturali</term>
+                    </label>
+                    <item>
+                        <gloss target="#scienceNaturelle" xml:lang="it" source="https://www.treccani.it/vocabolario/ricerca/scienza/">
+                            Le scienze naturali indagano la natura nei suoi molteplici aspetti: dallo studio della materia nelle sue svariate strutture e funzioni fino alla complessità dei sistemi e dei fenomeni biologici.
+                        </gloss>
+                    </item>
+
+
+                    <label>
+                        <term xml:id="sciencePhysique" xml:lang="fr">scince physique</term>
+                        <term ref="#sciencePhysique" xml:lang="it">fisica</term>
+                    </label>
+                    <item>
+                        <gloss target="#sciencePhysique" xml:lang="it" source="https://www.treccani.it/enciclopedia/fisica/">
+                            Con il termine fisica gli antichi designavano la riflessione filosofica sui fenomeni della natura, e quindi il suo ambito era strettamente connesso al concetto di natura cui di volta in volta ci si riferiva. Con l’affermarsi in età moderna della tendenza a una considerazione sperimentale dei fenomeni naturali, il termine è passato a indicare la scienza volta a fornire una descrizione razionale di quelli, tra i fenomeni naturali stessi (appunto detti fisici), suscettibili di sperimentazione e che riguardano grandezze misurabili; di fatto,
+                            peraltro, un gran numero di fenomeni naturali, che pure presentano tali requisiti, non sono abitualmente considerati come oggetto della fisica: è il caso, per es., dei fenomeni biologici, chimici, geologici.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="faitsDeLangage" xml:lang="fr">faits de langage</term>
+                        <term ref="#faitsDeLangage" xml:lang="it">fenomeni del linguaggio</term>
+                    </label>
+                    <item>
+                        <gloss target="#faitsDeLangage" xml:lang="it" source="https://www.treccani.it/vocabolario/linguaggio/">
+                            Fenomeni inenerenti al linguaggio umano.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="essence" xml:lang="fr">essence</term>
+                        <term ref="#essence" xml:lang="it">essenza</term>
+                    </label>
+                    <item>
+                        <gloss target="#essence" xml:lang="it" source="https://www.treccani.it/enciclopedia/ricerca/essenza/">
+                            In filosofia, la natura propria e immutabile delle cose. La sostanza di esse.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="scienceHistorique" xml:lang="fr">science historique</term>
+                        <term ref="#scienceHistorique" xml:lang="it">storia</term>
+                    </label>
+                    <item>
+                        <gloss target="#scienceHistorique" xml:lang="it" source="https://www.treccani.it/enciclopedia/ricerca/storia/">
+                            Il complesso delle azioni umane nel corso del tempo, nel senso sia degli eventi politici sia dei costumi e delle istituzioni in cui esse si sono organizzate.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="etudeDuLangage" xml:lang="fr">etude du langage</term>
+                        <term ref="#etudeDulangage" xml:lang="it">studio del linguaggio</term>
+                    </label>
+                    <item>
+                        <gloss target="#etudeDulangage" xml:lang="it" source="https://www.treccani.it/vocabolario/linguaggio/">
+                            Studio del linguaggio umano.
+                        </gloss>
+                    </item>
+                </list>
+
+                <listPerson>
+                    <person xml:id="FDS">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Ferdinand_de_Saussure" />
+                            <forename>Ferdinand</forename>
+                            <surname>De Saussure</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="26-11-1857">26 novembre 1857</date>
+                            <placeName ref="#ginevra">
+                                <settlement>Ginevra</settlement>
+                                <country>Svizzera</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="22-02-1913">22 febbraio 1913</date>
+                            <placeName>
+                                <settlement>Vufflens-le-Château</settlement>
+                                <country>Svizzera</country>
+                            </placeName>
+                        </death>
+                    </person>
+                </listPerson>
+                
+                <!-- Riferimenti bibiografici -->
+                <listBibl>                    
+                    <bibl xml:id="ACLib" xml:lang="fr">
+                        <author ref="#AC">
+                            <forename>Alessandro</forename>
+                            <surname>Chidichimo</surname>
+                        </author>
+                        <title>Cahiers</title>
+
+                        <author>
+                            <persName ref="#FDS">
+                                <forename>Ferdinand</forename> 
+                                <surname>de Saussure</surname>
+                            </persName>
+                        </author>
+
+                        <pubPlace ref="#ginevra"><placeName ref="#ginevra">Ginevra</placeName></pubPlace>
+                        <publisher>Librairie Droz</publisher>
+                        <date when="2009">2009</date>
+                    </bibl>
+                    
+                    <bibl xml:id="EFLib">
+                        <author xml:id="EF">
+                            <forename>Emanuele</forename>
+                            <surname>Fadda</surname>
+                        </author>
+                        <title type="main" level="m">Lingua e mente sociale</title>
+                        <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                        <pubPlace><placeName ref="#Acireale">Acireale</placeName></pubPlace>
+                        <publisher>Bonanno Editore</publisher>
+                        <date when="2006">2006</date>
+                        <biblScope unit="volume">1</biblScope>
+                    </bibl>
+                    
+                    <bibl xml:id="TDMLib">
+                        <author ref="#FDS">
+                            <forename>Ferdinand</forename>
+                            <surname>De Saussure</surname>
+                        </author>
+                        <author xml:id="TDM">
+                            <forename>Tullio</forename>
+                            <surname>De Mauro</surname>
+                        </author>
+                        <title>Corso di linguistica generale, introduzione, traduzione e commento di Tullio De Mauro</title>
+                        <pubPlace><placeName ref="#Roma">Roma</placeName></pubPlace>
+                        <date when="1976">1976</date>
+                        <publisher>Editori Laterza</publisher>
+                    </bibl>
+                </listBibl>
+
+                <listPlace>
+                    <place xml:id="baltique">
+                        <placeName ref="https://it.wikipedia.org/wiki/Mar_Baltico">Mar Baltico</placeName>
+                    </place>
+                    <place xml:id="inde">
+                        <placeName ref="https://it.wikipedia.org/wiki/India">India</placeName>
+                        <country>India</country>
+                    </place>
+                    <place xml:id="ginevra">
+                        <placeName ref="https://it.wikipedia.org/wiki/Ginevra">Ginevra</placeName>
+                        <settlement>Ginevra</settlement>
+                        <country>Svizzera</country>
+                    </place>
+                    <place xml:id="Acireale">
+                        <placeName ref="https://it.wikipedia.org/wiki/Acireale">Acireale</placeName>
+                        <settlement type="region">Sicilia</settlement>
+                        <country>Italia</country>
+                    </place>
+                    <place xml:id="Roma">
+                        <placeName ref="https://it.wikipedia.org/wiki/Roma">Roma</placeName>
+                        <settlement type="region">Lazio</settlement>
+                        <country>Italia</country>
+                    </place>
+                </listPlace>
+            </div>
+        </back>
+    </text>
+</TEI>
