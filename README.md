@@ -17,4 +17,4 @@ java -cp "tools/Xerces-J-bin.2.12.1/xerces-2_12_1/" dom.Counter -v CODIFICA_PERG
 
 I file XML e XSL sono stati trasformati con Saxon-HE 10.3 in un file HTML "pagina3.html" con il seguente comando:
 
-java net.sf.saxon.Transform -s:merge.xml -xsl:merge.xsl -o:pagina3.html
+$ java -jar tools/SaxonHE10-3J/saxon-he-10.3.jar -s:CODIFICA_PERGOLA_TOSCANO.xml -xsl:codifica.xsl -o:pagina3.html
