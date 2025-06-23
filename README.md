@@ -1,4 +1,3 @@
-<!-- 
   🔧 CodificaDiTestiProgetto 🔧
   Esame di Codifica di Testi — A.A. 2021/22
   Docente: Prof. Angelo Mario Del Grosso
