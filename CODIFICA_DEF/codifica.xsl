@@ -165,7 +165,7 @@
         <h3>Data di nascita</h3>
         <p>Nato il <xsl:value-of select="//tei:person/tei:birth/tei:date" /> a <xsl:value-of select="//tei:person/tei:birth//tei:settlement" />. </p>
         <h3>Data di morte</h3>
-        <p>Morto il <xsl:value-of select="//tei:person/tei:death/tei:date" /> a <xsl:value-of select="//tei:person/tei:death//tei:settlement" />.</p>
+        <p>Deceduto il <xsl:value-of select="//tei:person/tei:death/tei:date" /> a <xsl:value-of select="//tei:person/tei:death//tei:settlement" />.</p>
 
     </xsl:template>
 
@@ -351,8 +351,6 @@
   <p>Professore coordinatore del progetto: <xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='AMG']"/></p>
   <p>Studenti responsabili della codifica: <xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='GP']"/> e <xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='GVDT']"/></p>
 </xsl:template>
-
-
 
 
 
