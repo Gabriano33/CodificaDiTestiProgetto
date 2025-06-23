@@ -1,25 +1,24 @@
-# 📖 CodificaDiTestiProgetto
+<!-- 
+  🔧 CodificaDiTestiProgetto 🔧
+  Esame di Codifica di Testi — A.A. 2021/22
+  Docente: Prof. Angelo Mario Del Grosso
+  Corso di Laurea in Informatica Umanistica (Triennale), Università di Pisa
 
-Questo progetto è stato realizzato per l’esame di **Codifica di Testi** (a.a. 2021/22), tenuto dal Prof. **Angelo Mario Del Grosso**, nell’ambito del corso di Laurea in **Informatica Umanistica (Triennale)**.
+  👨‍💻 Studenti:
+  - Gabriele Pergola (MAT601761)
+  - Giuseppe Vincenzo Dylan Toscano (MAT599752)
 
----
+  📝 Descrizione:
+  Il progetto consiste nella codifica digitale di due pagine di manoscritto (fogli 3 e 14 - "Prolusioni 1")
+  utilizzando linguaggi di markup secondo gli standard di codifica testuale. I file XML sono stati validati
+  e trasformati in HTML per la visualizzazione del contenuto codificato.
 
-## 👥 Studenti responsabili
+  ✅ Validazione effettuata con Xerces:
+  java -cp "tools/Xerces-J-bin.2.12.1/xerces-2_12_1/" dom.Counter -v CODIFICA_PERGOLA_TOSCANO.xml
 
-- **Gabriele Pergola** (MAT601761)  
-- **Giuseppe Vincenzo Dylan Toscano** (MAT599752)
+  🔁 Trasformazione in HTML con Saxon-HE 10.3:
+  java -jar tools/SaxonHE10-3J/saxon-he-10.3.jar -s:CODIFICA_PERGOLA_TOSCANO.xml -xsl:codifica.xsl -o:pagina3.html
 
----
+  📂 Output generato:
+  pagina3.html – visualizzazione HTML del manoscritto codificato
 
-## 📄 Descrizione del Progetto
-
-Sono state codificate **due pagine di manoscritto**, nello specifico i **fogli 3 e 14** della sezione *Prolusioni 1*.
-
----
-
-## ✅ Validazione del file XML
-
-La validazione è stata effettuata tramite **Xerces**, utilizzando il seguente comando:
-
-```bash
-java -cp "tools/Xerces-J-bin.2.12.1/xerces-2_12_1/" dom.Counter -v CODIFICA_PERGOLA_TOSCANO.xml
