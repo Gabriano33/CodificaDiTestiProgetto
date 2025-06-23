@@ -1,29 +1,37 @@
 
 // Questa funzione gestisce l'evento di click sui bottoni per evidenziare i termini e il bottone terminologia
 function toggleElement() {
-  var elemento = document.getElementById("pagina3"); 
-  var elemento2 = document.getElementById("pagina14"); 
-  if (elemento.style.display === "none") { 
-  elemento.style.display = "block"; 
-  elemento2.style.display = "none"; 
+  var elemento = document.getElementById("pagina3");
+  var elemento2 = document.getElementById("pagina14");
+
+  if (elemento.style.display === "none") {
+    elemento.style.display = "block";
+    elemento2.style.display = "none";
   } else {
-  elemento.style.display = "none"; 
-  elemento2.style.display = "block"; 
+    elemento.style.display = "none";
+    elemento2.style.display = "block";
   }
-  }
+}
+
 
 // Questa funzione gestisce l'evento di click sul bottone Compari
 function Compari() {
-  const gloss = document.querySelectorAll (".gloss"); 
-  var elemento = document.getElementById("terminol"); 
-  if (elemento.style.display === "none") { 
-  elemento.style.display = "block"; 
-  gloss.forEach(vocabolario => vocabolario.classList.toggle("inline_block")) 
+  const gloss = document.querySelectorAll(".gloss");
+  var elemento = document.getElementById("terminol");
+
+  if (elemento.style.display === "none") {
+    elemento.style.display = "block";
+    gloss.forEach(vocabolario =>
+      vocabolario.classList.toggle("inline_block")
+    );
   } else {
-  elemento.style.display = "none"; 
-  gloss.forEach(vocabolario => vocabolario.classList.toggle("gloss")) 
+    elemento.style.display = "none";
+    gloss.forEach(vocabolario =>
+      vocabolario.classList.toggle("gloss")
+    );
   }
-  }
+}
+
 
 // Aggiunge un event listener che ascolta quando la pagina è completamente caricata
 window.addEventListener("DOMContentLoaded", () => {
