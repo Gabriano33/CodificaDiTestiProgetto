@@ -1,23 +1,15 @@
-  🔧 CodificaDiTestiProgetto 🔧
-  Esame di Codifica di Testi — A.A. 2021/22
-  Docente: Prof. Angelo Mario Del Grosso
-  Corso di Laurea in Informatica Umanistica (Triennale), Università di Pisa
+# CodificaDiTestiProgetto 
 
-  👨‍💻 Studenti:
-  - Gabriele Pergola (MAT601761)
-  - Giuseppe Vincenzo Dylan Toscano (MAT599752)
+Il progetto in questione è stato realizzato per l'esame di Codifica di Testi (programma AA 2021/22), a cura del professor Angelo Mario Del Grosso, corso di Laurea in Informatica Umanistica (triennale). 
 
-  📝 Descrizione:
-  Il progetto consiste nella codifica digitale di due pagine di manoscritto (fogli 3 e 14 - "Prolusioni 1")
-  utilizzando linguaggi di markup secondo gli standard di codifica testuale. I file XML sono stati validati
-  e trasformati in HTML per la visualizzazione del contenuto codificato.
+Studenti responsabili: 
+Gabriele Pergola (MAT601761) 
+Giuseppe Vincenzo Dylan Toscano (MAT599752) 
 
-  ✅ Validazione effettuata con Xerces:
-  java -cp "tools/Xerces-J-bin.2.12.1/xerces-2_12_1/" dom.Counter -v CODIFICA_PERGOLA_TOSCANO.xml
+Sono state codificate due pagine di manoscritto, in particolare i fogli 3 e 14 - 
 
-  🔁 Trasformazione in HTML con Saxon-HE 10.3:
-  java -jar tools/SaxonHE10-3J/saxon-he-10.3.jar -s:CODIFICA_PERGOLA_TOSCANO.xml -xsl:codifica.xsl -o:pagina3.html
+prolusioni 1 Il progetto è stato validato con Xerces con il seguente comando: 
+java -cp "tools/Xerces-J-bin.2.12.1/xerces-2_12_1/" dom.Counter -v CODIFICA_PERGOLA_TOSCANO.xml 
 
-  📂 Output generato:
-  pagina3.html – visualizzazione HTML del manoscritto codificato
-
+I file XML e XSL sono stati trasformati con Saxon-HE 10.3 in un file HTML "pagina3.html" con il seguente comando: 
+$ java -jar tools/SaxonHE10-3J/saxon-he-10.3.jar -s:CODIFICA_PERGOLA_TOSCANO.xml -xsl:codifica.xsl -o:pagina3.html
